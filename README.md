@@ -55,7 +55,7 @@ The trained GCN outputs an \( n \times n \) matrix, where \( n \) is the total n
 
 For a configuration \( i \):
 - The matrix entry with the highest probability in row \( i \) indicates the predicted runtime class.
-- Example: If \(\text{pred}[i][j]\) is the highest value, configuration \( i \) belongs to class \( j \), i.e., it is predicted to have the \( j \)-th fastest runtime.
+- Example: If pred\[i\]\[j\] is the highest value, configuration \( i \) belongs to class \( j \), i.e., it is predicted to have the \( j \)-th fastest runtime.
   
 The approach bears similarities to the "bag-of-words" model used in text classification, where feature vectors are used to classify Machine Learning keywords in datasets such as the Cora dataset. Here, feature vectors represent nodes and edges in computational graphs, which are used to determine runtime classes instead of text categories.
 
