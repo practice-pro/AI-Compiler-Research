@@ -47,7 +47,17 @@ The GCN was trained on feature vectors derived from the computational graph and 
 
 ## Model Interpretation
 
-The **GCN model** outputs an **n x n matrix**, where the matrix entries represent the predicted probabilities of configurations belonging to specific runtime classes. Each row corresponds to a configuration, and the highest probability indicates the predicted runtime class for that configuration.
+The trained GCN outputs an \( n \times n \) matrix, where \( n \) is the total number of configurations. Each entry \( \text{pred}[i][j] \) represents the probability of configuration \( i \) belonging to runtime class \( j \):
+
+- **Class 0**: Fastest runtime.
+- **Class \( j \)**: The \( j \)-th fastest runtime.
+- **Class \( n-1 \)**: Slowest runtime.
+
+For a configuration \( i \):
+- The matrix entry with the highest probability in row \( i \) indicates the predicted runtime class.
+- Example: If \( \text{pred}[i][j] \) is the highest value, configuration \( i \) belongs to class \( j \), i.e., it is predicted to have the \( j \)-th fastest runtime.
+  
+The approach bears similarities to the "bag-of-words" model used in text classification, where feature vectors are used to classify Machine Learning keywords in datasets such as the Cora dataset. Here, feature vectors represent nodes and edges in computational graphs, which are used to determine runtime classes instead of text categories.
 
 ## Ongoing Work
 
