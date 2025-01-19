@@ -65,3 +65,18 @@ While the GCN model has already been trained and tested during the Kaggle contes
 - Expanding the dataset to include more complex configurations.
 - Investigating additional machine learning techniques to improve accuracy and performance predictions.
 - Integrating the model into an AI compiler framework for real-time optimization of runtime.
+
+## Acknowledgments
+
+This repository utilizes the following dataset:
+**Google - Fast or Slow? Predict AI Model Runtime:**:  
+   Kaggle competition dataset (2023) by Mangpo Phothilimthana, Sami Abu-El-Haija, Bryan Perozzi, Walter Reade, and Ashley Chow.  
+   [View the Dataset on Kaggle](https://www.kaggle.com/competitions/predict-ai-model-runtime).  
+
+@misc{predict-ai-model-runtime,
+    author = {Mangpo Phothilimthana and Sami Abu-El-Haija and Bryan Perozzi and Walter Reade and Ashley Chow},
+    title = {Google - Fast or Slow? Predict AI Model Runtime},
+    year = {2023},
+    howpublished = {\url{https://kaggle.com/competitions/predict-ai-model-runtime}},
+    note = {Kaggle}
+}
