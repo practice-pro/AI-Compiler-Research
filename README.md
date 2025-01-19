@@ -75,10 +75,10 @@ This repository utilizes the following dataset:
 
 
 
-@misc{predict-ai-model-runtime,
+ @misc{predict-ai-model-runtime,
     author = {Mangpo Phothilimthana and Sami Abu-El-Haija and Bryan Perozzi and Walter Reade and Ashley Chow},
     title = {Google - Fast or Slow? Predict AI Model Runtime},
     year = {2023},
     howpublished = {\url{https://kaggle.com/competitions/predict-ai-model-runtime}},
     note = {Kaggle}
-}
+ }
