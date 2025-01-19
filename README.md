@@ -69,11 +69,12 @@ While the GCN model has already been trained and tested during the Kaggle contes
 ## Acknowledgments
 
 This repository utilizes the following dataset:
-**Google - Fast or Slow? Predict AI Model Runtime:**:  
+- **Google - Fast or Slow? Predict AI Model Runtime:**:  
    Kaggle competition dataset (2023) by Mangpo Phothilimthana, Sami Abu-El-Haija, Bryan Perozzi, Walter Reade, and Ashley Chow.  
    [View the Dataset on Kaggle](https://www.kaggle.com/competitions/predict-ai-model-runtime).  
 
-
+For citation, use the following BibTeX entry:
+```bibtex
 
  @misc{predict-ai-model-runtime,
     author = {Mangpo Phothilimthana and Sami Abu-El-Haija and Bryan Perozzi and Walter Reade and Ashley Chow},
