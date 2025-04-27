@@ -64,6 +64,7 @@ The approach bears similarities to the "bag-of-words" model used in text classif
 While the GCN model has already been trained and tested during the Kaggle contest, this repository continues to evolve as I build upon this work. The next steps involve:
 - Expanding the dataset to include more complex configurations.
 - Investigating additional machine learning techniques to improve accuracy and performance predictions.
+- Implementing a GRU-based Runtime Prediction Model: As part of improving the prediction of model runtimes, I have developed a GRU-based model to better capture the sequential dependencies in the data and enhance runtime prediction accuracy. This model includes multiple layers, such as an input layer for node features and a GRU layer for capturing complex temporal patterns in runtime data. The goal is to make runtime predictions more robust, especially when dealing with variable node features and different operation codes (opcodes).
 - Integrating the model into an AI compiler framework for real-time optimization of runtime.
 
 ## Acknowledgments
